@@ -182,6 +182,7 @@
         display: flex;
         flex-direction: column;
         gap: 2em;
+        padding: 1em;
     }
     .sub-content-sub-hero{
         display: flex;
@@ -240,4 +241,138 @@
     .sub-content p{
         font-weight: 700;
     }
+
+
+    .contact{
+        padding: 1rem;
+        background: linear-gradient(118deg, #f9ac3a 0, #eb4949 100%);
+    }
+    .main-contact{
+        background-color: white;
+        background-image: url('https://www.allrecipes.com/static/2.99.0/images/homepage/homepage-overview-dots.png');
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        padding: 2em;
+    }
+
+    .sub-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-contact-title{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .sub-contact-title a{
+        color: #d54215;
+    }
+    .sub-contact-title img{
+        height: 1em;
+    }
+    .sub-contact-title h1{
+        color: #fbd657;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+    .centering{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .sub-contact-img{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .sub-contact-img p{
+        font-size: x-large;
+    }
+    .sub-contact-img h6{
+        text-transform: uppercase;
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .sub-contact-img h3{
+        text-decoration: underline;
+        text-decoration-color: #D54215;
+        font-size: xx-large;
+    }
+    .main-contact-img img{
+        height: 70vw;
+    }
+    .sub-contact-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .dots{
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+    }
+    .dot{
+        height: 1em;
+        width: 1em;
+        background-color: gray;
+        border-radius: 50%;
+    }
+
+    .social{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2em;
+
+        margin-bottom: 2em;
+    }
+
+    .social img{
+        height: 5vw;
+    }
+    .social a{
+        color: black;
+        font-size: x-large;
+    }
+
+    .img-contact-main{
+        margin-top: 2em;
+    }
+    .img-contact-main-part1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        margin-bottom: 2em;
+    }
+    .img-contact-main-part1 a{
+        color: #d54215;
+        font-size: xx-large;
+    }
+    .img-contact-main-part1 img{
+        height: 1em;
+    }
+    .centering2{
+        display: inline;
+    }
+
+
+    .img-grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 3em;
+    }
+    .img-grid img{
+        height: 20vw;
+    }
+
+    
 }
