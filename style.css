@@ -14,7 +14,13 @@
 
 
 @media only screen and (max-width: 600px) {
-    nav{
+    .container{
+        margin: 0 auto;
+        width: 85%;
+    }
+
+
+    nav{    
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -127,5 +133,111 @@
         width: .5em;
         border-radius: 50%;
         border: 1px solid white;
+    }
+
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 2em;
+    }
+
+    .main-hero img{
+        width: 85vw;
+        object-fit: cover;
+    }
+
+    .hero-text{
+        font-size: x-large;
+        font-weight: bold;
+
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .gray{
+        color: gray;
+    }
+
+    .sub-hero{
+        background-color: #F5F6EA;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+    .sub-hero h2{
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .content-sub-hero{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .sub-content-sub-hero{
+        display: flex;
+        gap: 1em;
+
+        font-size: x-large;
+        font-weight: 700;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+    .content h1{
+        font-weight: 700;
+        font-size: xx-large;
+    }
+    .underline h1{
+        content: "";
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: .875rem;
+        background: #e7ab46;
+    }
+
+    .main-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2em;
+    }
+
+    .main-content img{
+        width: 40vw;
+    }
+
+    .sub-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .sub-content h1{
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .sub-content p{
+        font-weight: 700;
     }
 }
