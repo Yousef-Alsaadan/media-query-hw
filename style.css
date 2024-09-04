@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 1em 1em 1em 1em;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        height: 8vw;
+    }
+
+    .search{
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+    }
+    .search input{
+        border: none;
+        width: 12em;
+        padding-left: .5em;
+    }
+    .search img{
+        padding: .5em;
+        height: 3vw;
+        background-color: #D54215;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+    }
+    .login a{
+        color: black;
+    }
+    .login img{
+        height: 3vw;
+        border-radius: 50%;
+    }
+}
