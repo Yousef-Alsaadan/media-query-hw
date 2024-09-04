@@ -266,6 +266,11 @@
         font-size: xx-large;
         font-weight: 700;
     }
+
+    .make-it-row{
+        display: flex;
+        flex-direction: column;
+    }
     .centering{
         display: flex;
         justify-content: center;
